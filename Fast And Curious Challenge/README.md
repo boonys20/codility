@@ -22,13 +22,13 @@ As the result might be large, return its remainder when divided by 10**9 + 7.
 <br/> With the motorway from the 2nd city the travel times would be: 8 for the 0th city, 4 for the 1st city and 0 for the 2nd city: that is 12 in total.
 
 <br/> Picture illustrating first example test.
-![Image of pending status](images/pending.png)
+![Image of pending status](images/fa6ccb32d8e903cdea4f3d7b9ad8e959.png)
 
 2. If A = [5, 15], the function should return 0.
 <br/> We can only build a motorway from the 0th city to the 1st. Travel time from the city to the motorway is 0, so 0 is the answer.
 
 <br/> Picture illustrating second example test.
-![Image of pending status](images/pending.png)
+![Image of pending status](images/ac5fb1b0850743041ab1d20a93f0f232.png)
 
 3. If A = [2, 6, 7, 8, 12], the function should return 9.
 <br/>With the motorway from the 0th city the total travel time is equal to 0 + 6 + 5 + 4 = 15. 
@@ -38,7 +38,7 @@ As the result might be large, return its remainder when divided by 10**9 + 7.
 <br/> The answer is 9, because that is the minimum total time among all motorway placement possibilities.
 
 <br/> Picture illustrating third example test.
-![Image of pending status](images/pending.png)
+![Image of pending status](images/fa6ccb32d8e903cdea4f3d7b9ad8e959.png)
 
 4. If N = 20 and A[K] = K *(5* 107) for each K from 0 to 19, the function should return 499999972. The minimal total time among all motorway placement possibilities is 4500000000, whose remainder when divided by 10**9 + 7 is 499999972.
 
