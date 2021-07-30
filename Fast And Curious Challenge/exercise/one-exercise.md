@@ -1,4 +1,4 @@
-### Fast And Curious Challenge
+# Fast And Curious Challenge
 
 There are N cities (numbered from 0 to N-1) located along a road. The K-th city is situated A[K] from the beginning of the road in the west. Cities are numbered in ascending order of position, and no two of them lie in the same place. Formally, A[K] < A[K + 1] holds for every K from 0 to N-2.
 
@@ -6,7 +6,7 @@ The time needed to travel east from city X to the easternmost city equals A[N - 
 
 There are no motorways right now, but one from any city to the easternmost city is planned to be built. Decide where to build it in order to minimize the sum of travel times from every city to the easternmost one.
 
-Write a function:
+## Write a function:
 
 class Solution { public int solution(int[] A); }
 
@@ -14,7 +14,7 @@ that, given an array A of N integers, returns the minimum total travel time as d
 
 As the result might be large, return its remainder when divided by 10**9 + 7.
 
-Examples:
+## Examples:
 
 1. Given A = [1, 5, 9, 12], the function should return 7.
 
@@ -44,7 +44,7 @@ Picture illustrating third example test.
 
 Write an efficient algorithm for the following assumptions:
 
-N is an integer within the range [2..100,000];
-each element of array A is an integer within the range [0..1,000,000,000];
-the elements of A are all distinct;
-array A is sorted in ascending order.
+* N is an integer within the range [2..100,000];
+* each element of array A is an integer within the range [0..1,000,000,000];
+* the elements of A are all distinct;
+* array A is sorted in ascending order.
