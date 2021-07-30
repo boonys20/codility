@@ -18,29 +18,30 @@ As the result might be large, return its remainder when divided by 10**9 + 7.
 
 1. Given A = [1, 5, 9, 12], the function should return 7.
 
-With the motorway from the 0th city the travel times would be: 0 for the 0th city as it has a motorway, 7 for the 1st city and 3 for the 2nd city: that is 10 in total.
-With the motorway from the 1st city the travel times would be: 4 for the 0th city, 0 for the 1st city and 3 for the 2nd city: that is 7 in total.
-With the motorway from the 2nd city the travel times would be: 8 for the 0th city, 4 for the 1st city and 0 for the 2nd city: that is 12 in total.
+  With the motorway from the 0th city the travel times would be: 0 for the 0th city as it has a motorway, 7 for the 1st city and 3 for the 2nd city: that is 10 in total.
+  With the motorway from the 1st city the travel times would be: 4 for the 0th city, 0 for the 1st city and 3 for the 2nd city: that is 7 in total.
+  With the motorway from the 2nd city the travel times would be: 8 for the 0th city, 4 for the 1st city and 0 for the 2nd city: that is 12 in total.
 
-Picture illustrating first example test.
+  Picture illustrating first example test.
 
 2. If A = [5, 15], the function should return 0.
 
-We can only build a motorway from the 0th city to the 1st. Travel time from the city to the motorway is 0, so 0 is the answer.
+  We can only build a motorway from the 0th city to the 1st. Travel time from the city to the motorway is 0, so 0 is the answer.
 
-Picture illustrating second example test.
+  Picture illustrating second example test.
 
 3. If A = [2, 6, 7, 8, 12], the function should return 9.
 
-With the motorway from the 0th city the total travel time is equal to 0 + 6 + 5 + 4 = 15.
-With the motorway from the 1st city the total travel time is equal to 4 + 0 + 5 + 4 = 13.
-With the motorway from the 2nd city the total travel time is equal to 5 + 1 + 0 + 4 = 10.
-With the motorway from the 3rd city the total travel time is equal to 6 + 2 + 1 + 0 = 9.
-The answer is 9, because that is the minimum total time among all motorway placement possibilities.
+  With the motorway from the 0th city the total travel time is equal to 0 + 6 + 5 + 4 = 15.
+  With the motorway from the 1st city the total travel time is equal to 4 + 0 + 5 + 4 = 13.
+  With the motorway from the 2nd city the total travel time is equal to 5 + 1 + 0 + 4 = 10.
+  With the motorway from the 3rd city the total travel time is equal to 6 + 2 + 1 + 0 = 9.
+  The answer is 9, because that is the minimum total time among all motorway placement possibilities.
 
-Picture illustrating third example test.
+  Picture illustrating third example test.
 
-4. If N = 20 and A[K] = K *(5* 107) for each K from 0 to 19, the function should return 499999972. The minimal total time among all motorway placement possibilities is 4500000000, whose remainder when divided by 109 + 7 is 499999972.
+4. If N = 20 and A[K] = K *(5* 107) for each K from 0 to 19, the function should return 499999972. 
+  The minimal total time among all motorway placement possibilities is 4500000000, whose remainder when divided by 109 + 7 is 499999972.
 
 Write an efficient algorithm for the following assumptions:
 
