@@ -1,3 +1,5 @@
+### Fast And Curious Challenge
+
 There are N cities (numbered from 0 to N-1) located along a road. The K-th city is situated A[K] from the beginning of the road in the west. Cities are numbered in ascending order of position, and no two of them lie in the same place. Formally, A[K] < A[K + 1] holds for every K from 0 to N-2.
 
 The time needed to travel east from city X to the easternmost city equals A[N - 1] - A[X] unless there is a city Y to the east of X (as cars can drive only to the east) with a motorway to the easternmost city built. Then, travel time decreases to A[Y] - A[X] (time spent on the motorway is not considered). If city X has a motorway built, then the travel time from it equals 0.
