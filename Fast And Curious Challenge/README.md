@@ -38,6 +38,7 @@ As the result might be large, return its remainder when divided by 10**9 + 7.
 <br/> The answer is 9, because that is the minimum total time among all motorway placement possibilities.
 
 <br/> Picture illustrating third example test.
+
 ![Image of pending status](images/fa6ccb32d8e903cdea4f3d7b9ad8e959.png)
 
 4. If N = 20 and A[K] = K *(5* 107) for each K from 0 to 19, the function should return 499999972. The minimal total time among all motorway placement possibilities is 4500000000, whose remainder when divided by 10**9 + 7 is 499999972.

@@ -12,7 +12,7 @@ def Solution(A):
         best = min(best, cost)
     return best % (10**9 + 7)
 
-def Da_Best_Solution(A):
+def Best_Solution(A):
     N = len(A)
     cost = 0
     for i in range(1, N):
@@ -29,3 +29,4 @@ if __name__ == "__main__":
     cities = [[1, 5, 9, 12], [5, 15], [2, 6, 7, 8, 12]];
     for city in cities:
         print(Solution(city))
+        print(Best_Solution(city))
