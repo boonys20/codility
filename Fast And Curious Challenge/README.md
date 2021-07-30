@@ -22,12 +22,14 @@ As the result might be large, return its remainder when divided by 10**9 + 7.
 <br/> With the motorway from the 2nd city the travel times would be: 8 for the 0th city, 4 for the 1st city and 0 for the 2nd city: that is 12 in total.
 
 <br/> Picture illustrating first example test.
+
 ![Image of pending status](images/fa6ccb32d8e903cdea4f3d7b9ad8e959.png)
 
 2. If A = [5, 15], the function should return 0.
 <br/> We can only build a motorway from the 0th city to the 1st. Travel time from the city to the motorway is 0, so 0 is the answer.
 
 <br/> Picture illustrating second example test.
+
 ![Image of pending status](images/ac5fb1b0850743041ab1d20a93f0f232.png)
 
 3. If A = [2, 6, 7, 8, 12], the function should return 9.
